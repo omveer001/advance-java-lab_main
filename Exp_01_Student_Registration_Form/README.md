@@ -39,10 +39,10 @@ This experiment implements an interactive desktop **Student Registration Form** 
 cd Exp_01_Student_Registration_Form
 
 # Compile the source file:
-javac aniket.java
+javac omveer.java
 
 # Run the GUI application:
-java aniket
+java omveer
 ```
 
 ---
