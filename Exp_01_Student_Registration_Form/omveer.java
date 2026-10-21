@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 
-public class aniket extends JFrame implements ActionListener {
+public class omveer extends JFrame implements ActionListener {
 
     JLabel lblName, lblRoll, lblBranch, lblGender;
     JTextField txtName, txtRoll, txtBranch;
@@ -10,7 +10,7 @@ public class aniket extends JFrame implements ActionListener {
     JCheckBox chkTerms;
     JButton btnSubmit, btnReset;
 
-    aniket() {
+    omveer() {
 
         setTitle("Student Registration Form");
         setSize(400, 350);
@@ -136,6 +136,6 @@ public class aniket extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new aniket();
+        new omveer();
     }
 }
