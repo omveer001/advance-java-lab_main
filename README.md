@@ -21,8 +21,8 @@ AJL/
 ├── .gitignore                                         # Git ignore rules for build artifacts & runtime logs
 │
 ├── Exp_01_Student_Registration_Form/                  # Exp 1: Desktop Student Registration Form (Swing)
-│   ├── aniket.java                                    # Swing GUI, validation & event handling
-│   ├── aniket.class                                   # Compiled Java bytecode
+│   ├── omveer.java                                    # Swing GUI, validation & event handling
+│   ├── omveer.class                                   # Compiled Java bytecode
 │   └── README.md                                      # Experiment 1 detailed guide
 │
 ├── Exp_02_Calculator/                                 # Exp 2: Swing Calculator with MVC Pattern
@@ -96,19 +96,19 @@ AJL/
 ## 🔬 Laboratory Experiments Overview
 
 ### 1. Student Registration Form (Java Swing)
-* **Directory**: [`Exp_01_Student_Registration_Form`](file:///c:/Users/anike/Downloads/AJL/Exp_01_Student_Registration_Form)
+
 * **Concepts**: Java Swing GUI controls (`JFrame`, `JLabel`, `JTextField`, `JRadioButton`, `ButtonGroup`, `JCheckBox`), validation logic, `JOptionPane` modal dialogs, submit/reset event handling.
 * **Run**:
   ```bash
   cd Exp_01_Student_Registration_Form
-  javac aniket.java
-  java aniket
+  javac omveer.java
+  java omveer
   ```
 
 ---
 
 ### 2. Swing Calculator (MVC Architecture)
-* **Directory**: [`Exp_02_Calculator`](file:///c:/Users/anike/Downloads/AJL/Exp_02_Calculator)
+
 * **Concepts**: Model-View-Controller pattern, Swing GUI (`JFrame`, `JLabel`, `JTextField`, `JButton`), `ActionListener`, zero-division protection.
 * **Run**:
   ```bash
@@ -120,7 +120,7 @@ AJL/
 ---
 
 ### 3. MySQL Database Connectivity (JDBC)
-* **Directory**: [`Exp_03_Mysql_Connect(JDBC)`](file:///c:/Users/anike/Downloads/AJL/Exp_03_Mysql_Connect(JDBC))
+
 * **Concepts**: Type-4 JDBC driver (`com.mysql.cj.jdbc.Driver`), `DriverManager.getConnection()`, parameterized `PreparedStatement`, SQL injection prevention, DML execution on `college.student`.
 * **Run**:
   ```bash
@@ -132,7 +132,7 @@ AJL/
 ---
 
 ### 4. Server-Client Basics (TCP Sockets)
-* **Directory**: [`Exp_04_Server_Client_Basics`](file:///c:/Users/anike/Downloads/AJL/Exp_04_Server_Client_Basics)
+
 * **Concepts**: Stream sockets, `java.net.ServerSocket`, `java.net.Socket`, TCP handshake, buffered I/O stream communication on port `5000`.
 * **Run** (using 2 terminals in `Exp_04_Server_Client_Basics`):
   ```bash
@@ -144,7 +144,7 @@ AJL/
 ---
 
 ### 5. Java Remote Method Invocation (RMI)
-* **Directory**: [`Exp_05_RMI`](file:///c:/Users/anike/Downloads/AJL/Exp_05_RMI)
+
 * **Concepts**: Distributed computing, Remote Interface (`java.rmi.Remote`), `UnicastRemoteObject`, `rmiregistry` on port `1099`, `Naming.rebind()`, `Naming.lookup()`.
 * **Run** (using 3 terminals in `Exp_05_RMI`):
   ```bash
@@ -157,7 +157,7 @@ AJL/
 ---
 
 ### 6. Apache Tomcat 11 Web Application Server
-* **Directory**: [`Exp_06_Apache_Tomcat`](file:///c:/Users/anike/Downloads/AJL/Exp_06_Apache_Tomcat)
+
 * **Concepts**: Web application container topology, `webapps` deployment directory, `catalina` startup scripts, pre-configured `studentform` HTML5/CSS3/JavaScript webapp.
 * **Run**:
   ```cmd
@@ -169,7 +169,7 @@ AJL/
 ---
 
 ### 6. Servlet Login Application (Jakarta EE & Maven)
-* **Directory**: [`Exp_06_Servlet_Login_App`](file:///c:/Users/anike/Downloads/AJL/Exp_06_Servlet_Login_App)
+
 * **Concepts**: Jakarta Servlet 6.1, Maven WAR packaging, session management (`HttpSession`), authentication security filter (`@WebFilter("/home")`), lifecycle listeners (`@WebListener`).
 * **Run**:
   ```bash
@@ -185,7 +185,7 @@ AJL/
 ---
 
 ### 7. Conversion of HTML into Dynamic JSP (Jakarta EE & Maven)
-* **Directory**: [`Exp_07_JSP_Conversion`](file:///c:/Users/anike/Downloads/AJL/Exp_07_JSP_Conversion)
+
 * **Concepts**: Converting static HTML to dynamic JSP (`student.jsp`), MVC dispatching (`forward`), Expression Language (EL: `${studentName}`), JSTL 3.0 Core/XML/SQL tags, modular JSP fragments (`footer.jsp`).
 * **Build & Deploy**:
   ```bash
@@ -204,11 +204,6 @@ AJL/
 
 ## 🌟 Major Capstone Project: ShopSphere
 
-* **Directory**: [`ShopSphere`](file:///c:/Users/anike/Downloads/AJL/ShopSphere)
-* **Documentation**:
-  - [ShopSphere Developer Guide](file:///c:/Users/anike/Downloads/AJL/ShopSphere/README.md)
-  - [Academic Project Report](file:///c:/Users/anike/Downloads/AJL/ShopSphere/PROJECT_REPORT.md)
-  - [RTU Syllabus Curriculum Mapping](file:///c:/Users/anike/Downloads/AJL/ShopSphere/RTU_SYLLABUS_MAPPING.md)
 
 ### Key Capabilities
 - **3-Tier Enterprise Web App**: Jakarta Servlets 6.0 + JSP 3.1 + JSTL 3.0 + Custom Tags (`<tags:productCard/>`, `<tags:rating/>`).
